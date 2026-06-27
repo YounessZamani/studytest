@@ -4,47 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" type="text/css" href="../studytest/style.css">
+      <link rel="stylesheet" type="text/css" href="../studytest/style.css">
+
+
+
 
   </head>
   <body>
-    
-      <h1>
-        <img src="../assets/img/logo.webp" alt="logo" width="50">yunsify podcast
-      </h1>
-      <nav>
-        <a href="index.html">subscribed podcasts</a>
-        <a href="podcast.html">podcast details</a>
-        <a href="episode.html">episode details</a>
-        <a href="newpodcast.html">add a new podcast</a>
-      </nav>
-      
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
       <div id="container">
         <section>
-            <h2>TU / FH DORTMUND</h2>
-        </section>
+            <h2>Uni/fh chosen</h2>
+        <div id="search">
+          <form>
+            Search
+            <input type="text" name="pcname" maxlength="100" required>
+            <input type="submit" value="Search">
+          </form>
+        </div>
     </section>
     <aside>
         <section class="latest-episodes">
             <h3>majors</h3>
             <ul>
-                <li><a href="episode.html">Computer Science</a>
-                    <ul>modules
-                        <li>theoretische informatik</a></li>
-                        <li>Data Science</a></li>
-                        <li>Abetriebsysteme</a></li>
-                        
-                    </ul>
-                </li>
-                <li><a href="episode.html">Engineering</a></li>
-                <li><a href="episode.html">Business Administration</a></li>
+                <li class="major" data-major="Informatik">Informatik</li>
+                <li class="major" data-major="Architektur">Architektur</li>
+                <li class="major" data-major="Jura">Jura</li>
             </ul>
         </section>
     </aside>
     </div>
     
+
+
+
+    <form class="language-bar" action="/action_page.php">
+      <label for="cars">Choose a language:</label>
+      <select name="cars" id="cars">
+      <option value="volvo">English</option>
+      <option value="saab">German</option>
+      <option value="opel">French</option>
+      <option value="audi">Arabic</option>
+      </select>
+      <input type="submit" value="Submit">
+      </form>
     <footer>by @satoruShigami and @amr_tisqi</footer>
-    <script src="../assets/js/script.js"></script>
-    <script src="../assets/js/index.js"></script>
+    <script src="uni_majors.js"></script>
   </body>
 </html>
