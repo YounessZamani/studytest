@@ -62,3 +62,33 @@
     padding: 10px;
     text-align: center;
 }
+.uploads li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.upvote-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.download-btn {
+    background-color: #f70000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.upvote-btn:hover {
+    background-color: #0b7dda;
+}
+
+.votes {
+    font-weight: bold;
+}
