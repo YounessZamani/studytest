@@ -4,25 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/flex.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../studytest/style.css"
   </head>
   <body>
-    
-      <h1>
-        <img src="../assets/img/logo.webp" alt="logo" width="50">yunsify podcast
-      </h1>
-      <nav>
-        <a href="index.html">subscribed podcasts</a>
-        <a href="podcast.html">podcast details</a>
-        <a href="episode.html">episode details</a>
-        <a href="newpodcast.html">add a new podcast</a>
-      </nav>
-      
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
       <div id="container">
         <section>
-            <h2>subscribed podcasts</h2>
+            <h2>Tu Dortmund</h2>
         <div id="search">
           <form>
             Search
@@ -36,16 +30,29 @@
     </section>
     <aside>
         <section class="latest-episodes">
-            <h3>latest episodes</h3>
+            <h3>latest updates</h3>
             <ul>
-                <li><a href="episode.html">podcast a ep 323</a></li>
-                <li><a href="episode.html">episode b ep 11</a></li>
-                <li><a href="episode.html">episode c ep 7</a></li>
+                <li><a href="episode.html">GTI Klausur 2026</a></li>
+                <li><a href="episode.html">SWT Klausur 2026</a></li>
+                <li><a href="episode.html">RA Klausur 2026</a></li>
             </ul>
         </section>
     </aside>
     </div>
     
+
+
+
+    <form class="language-bar" action="/action_page.php">
+      <label for="cars">Choose a language:</label>
+      <select name="cars" id="cars">
+      <option value="volvo">English</option>
+      <option value="saab">German</option>
+      <option value="opel">French</option>
+      <option value="audi">Arabic</option>
+      </select>
+      <input type="submit" value="Submit">
+      </form>
     <footer>by @satoruShigami</footer>
     <script src="../assets/js/script.js"></script>
     <script src="../assets/js/index.js"></script>
