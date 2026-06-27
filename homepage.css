@@ -1,0 +1,20 @@
+html{
+    background-color: #f2eaea;
+}
+nav{
+    color: #9d9da5;
+}
+h1{
+    color: #33adc3;
+}
+footer{
+    background-color: rgb(42, 119, 3);
+    color: white;
+    margin: 0;
+    padding: 10px 14px;
+   position : fixed;
+   bottom : 0;
+    width : 140px;
+    right: 20px;
+    border: 1px solid black;
+}
